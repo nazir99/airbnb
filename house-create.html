@@ -8,7 +8,7 @@
   </head>
   <body>
     <nav class="navbar navbar-light bg-light">
-      <div class="container-fluid">
+      <div class="container-xxl">
         <a class="navbar-brand" href="#">
           <img
             class="airbnblogo"
@@ -33,14 +33,15 @@
         </div>
       </div>
     </nav>
-    <form class="" action="index.html" method="post">
-      <div class="mb-3">
+    <p class="fs-1 container-xxl mb-3"> List a House</p>
+    <form>
+      <div class="container-xxl mb-3">
         <label for="exampleFormControlInput1" class="form-label"
           >Short Title</label
         >
-        <input type="text" class="form-control" />
+        <input type="text" class="form-control" required>
       </div>
-      <div class="mb-3">
+      <div class="container-xxl mb-3">
         <label for="exampleFormControlTextarea1" class="form-label"
           >Description</label
         >
@@ -48,10 +49,10 @@
           class="form-control"
           id="exampleFormControlTextarea1"
           rows="3"
-        >
+          required>
         </textarea>
       </div>
-      <div class="mb-3">
+      <div class="container-xxl mb-3">
         <label for="exampleFormControlTextarea1" class="form-label"
           >Location</label
         >
@@ -61,13 +62,107 @@
           <option value="2">Bali</option>
         </select>
       </div>
-      <label for="exampleFormControlTextarea1" class="form-label">
-        Price per Night
-      </label>
-      <input class="" type="number" placeholder="" name="" value="" />
-      <label for="exampleFormControlTextarea1" class="form-label">
-        Add Photos(up to 9)
-      </label>
+      <div class="container-xxl mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">
+          Price per Night
+        </label>
+        <div class="container-xxl mb-3">
+          <input class="form-control" type="number" placeholder="$" name="" value="" min="1"/>
+        </div>
+        <label for="formFile" class="form-label"
+          >Add Photos (Up to 9 Photos)</label
+        >
+        <div class="mb-1">
+          <input
+            class="form-control"
+            type="url"
+            id="formFile"
+            placeholder="https://..."
+            required
+          />
+        </div>
+        <div class="mb-1">
+          <input
+            class="form-control"
+            type="url"
+            id="formFile"
+            placeholder="https://..."
+            required
+          />
+        </div>
+        <div class="mb-1">
+          <input
+            class="form-control"
+            type="url"
+            id="formFile"
+            placeholder="https://..."
+            required
+          />
+        </div>
+        <div class="mb-1">
+          <input
+            class="form-control"
+            type="url"
+            id="formFile"
+            placeholder="https://..."
+            required
+          />
+        </div>
+        <div class="mb-1">
+          <input
+            class="form-control"
+            type="url"
+            id="formFile"
+            placeholder="https://..."
+            required
+          />
+        </div>
+        <div class="mb-1">
+          <input
+            class="form-control"
+            type="url"
+            id="formFile"
+            placeholder="https://..."
+            required
+          />
+        </div>
+        <div class="mb-1">
+          <input
+            class="form-control"
+            type="url"
+            id="formFile"
+            placeholder="https://..."
+            required
+          />
+        </div>
+        <div class="mb-1">
+          <input
+            class="form-control"
+            type="url"
+            id="formFile"
+            placeholder="https://..."
+            required
+          />
+        </div>
+        <div class="mb-1">
+          <input
+            class="form-control"
+            type="url"
+            id="formFile"
+            placeholder="https://..."
+            required
+          />
+        </div>
+        <div class="mb-1">
+          <input
+            class="form-control"
+            type="url"
+            id="formFile"
+            placeholder="https://..."
+            required
+          />
+        </div>
+        <button type="button" class="btn btn-success mt-3">Submit</button>
     </form>
   </body>
 </html>
