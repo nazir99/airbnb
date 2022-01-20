@@ -36,48 +36,109 @@
     </nav>
     <div class="container">
       <div class="row">
-        <div class="col-sm-4 fs1">Profile</div>
-        <div class="mb-3">
+        <div class="col col-4">
           <div class="mb-3">
-            <label for="formGroupExampleInput" class="form-label">Name</label>
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label">Name</label>
+              <input
+                type="Text"
+                class=""
+                id="formGroupExampleInput"
+                placeholder=""
+              />
+            </div>
+            <label for="formGroupExampleInput" class="form-label">Email</label>
             <input
-              type="Text"
-              class=""
+              type="email"
+              class="col-sm-4 fs1"
               id="formGroupExampleInput"
               placeholder=""
             />
+            <div class="">
+              <span>Profile Picture</span>
+            </div>
+            <div>
+              <img
+                src="https://randomuser.me/api/portraits/men/11.jpg"
+                alt=""
+              />
+            </div>
+            <div class="">
+              <input
+                type="text"
+                name=""
+                value=""
+                placeholder="https://randomuser.me/api/portraits/men/11.jpg"
+              />
+            </div>
+            <button type="button" class="btn btn-success mt-3">
+              Save Changes
+            </button>
           </div>
-          <label for="formGroupExampleInput" class="form-label">Email</label>
-          <input
-            type="email"
-            class="col-sm-4 fs1"
-            id="formGroupExampleInput"
-            placeholder=""
-          />
-          <div class="">
-            <span>Profile Picture</span>
-          </div>
-          <div>
-            <img src="https://randomuser.me/api/portraits/men/11.jpg" alt="" />
-          </div>
-          <div class="">
-            <input
-              type="text"
-              name=""
-              value=""
-              placeholder="https://randomuser.me/api/portraits/men/11.jpg"
-            />
-          </div>
+        </div>
+        <div class="col col-8">
+          <div class="col-sm-8 fs1">List a House</div>
           <button type="button" class="btn btn-success mt-3">
-            Save Changes
+            List a House
           </button>
+
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="..." class="img-fluid rounded-start" alt="..." />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </p>
+
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <button type="button" class="btn btn-outline-secondary">
+                    Edit
+                  </button>
+                  <button type="button" class="btn btn-outline-success">
+                    View
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="..." class="img-fluid rounded-start" alt="..." />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </p>
+
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <button type="button" class="btn btn-outline-secondary">
+                    Edit
+                  </button>
+                  <button type="button" class="btn btn-outline-success">
+                    View
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="col-sm-8 fs1">List a House</div>
-      <button type="button" class="btn btn-success mt-3">
-        List a House
-      </button>
       <!-- <p class="mb-3"> List a House</p> -->
     </div>
   </body>
