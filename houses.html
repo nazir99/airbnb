@@ -8,17 +8,20 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link href="styles/additionalcss.css" rel="stylesheet">
     <title>Houses</title>
   </head>
   <body>
     <nav class="navbar navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-      <img src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1642399114/portal/web%20development%20beginners/05%20Project%20Airbnb/assets/logo-airbnb.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+      <img class="airbnblogo"src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1642399114/portal/web%20development%20beginners/05%20Project%20Airbnb/assets/logo-airbnb.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
     </a>
-  </div>
-  <button type="button" class="btn btn-outline-secondary"> <img src="https://randomuser.me/api/portraits/men/11.jpg" alt="">Tony Russo</button>
+<div>
+  <button type="button" class="btn btn-outline-secondar"> <img class="avatar" src="https://randomuser.me/api/portraits/men/11.jpg" alt="">Tony Russo</button>
   <button type="button" class="btn btn-outline-secondary">Log Out</button>
+</div>
+  </div>
 </nav>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
@@ -36,13 +39,12 @@
           <option value="4">4 rooms</option>
           <option value="5">5 rooms</option>
         </select>
-        <input type="number" placeholder="max price" name="" value="">
+        <input class="form-select"type="number" placeholder="max price" name="" value="">
         <select class="form-select" aria-label="Default select example">
           <option selected>Price (low to high)</option>
           <option value="1">Price (high to low)</option>
         </select>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <form class="d-flex">
             <input
               class="form-control me-2"
